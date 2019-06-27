@@ -197,7 +197,7 @@ function initMap() {
 	let marker = new google.maps.Marker({
 		position : center,
 		map      : map,
-		icon     : "../img/p.png"
+		icon     : "img/p.png"
 	});
 
 }
