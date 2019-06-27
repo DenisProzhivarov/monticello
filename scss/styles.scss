@@ -256,6 +256,10 @@ li, menu {
     	justify-content: space-between;
     	align-items: center;
     	// outline: 5px solid green;
+    	&--footer {
+			// outline: 1px solid yellow;
+			justify-content: flex-end;
+    	}
 	}
 	&__link {
 		transition: all .4s ease-in-out;
@@ -273,7 +277,7 @@ li, menu {
     flex-wrap: nowrap;
     justify-content: space-between;
     &--footer {
-    	width:20%;
+    	width:30%;
     	// outline: 1px solid red;
     	display: flex;
     	flex-direction:row;

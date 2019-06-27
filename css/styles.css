@@ -5075,6 +5075,10 @@ li, menu {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
+    .menu__main--footer {
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end; }
   .menu__link {
     -webkit-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
@@ -5097,7 +5101,7 @@ li, menu {
   -ms-flex-pack: justify;
   justify-content: space-between; }
   .socials--footer {
-    width: 20%;
+    width: 30%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
