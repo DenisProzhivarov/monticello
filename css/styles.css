@@ -5011,7 +5011,7 @@ li, menu {
   .menu--footer {
     padding-top: 200px; }
   .menu__items {
-    width: 80%;
+    width: 70%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5023,7 +5023,9 @@ li, menu {
     flex-wrap: nowrap;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%; }
   .menu__item {
     white-space: nowrap;
     /* Запрещаем перенос строк */
@@ -5033,7 +5035,7 @@ li, menu {
     text-overflow: ellipsis;
     /* Добавляем многоточие */
     max-width: 95px;
-    width: 20%;
+    width: 23%;
     -webkit-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out; }
